@@ -1,0 +1,13 @@
+environment: "local" #local, dev, prod
+connection_string:
+  host: "localhost"
+  port: "5433"
+  user: "postgres"
+  db_name: "1"
+  password: "postgres"
+  ssl_mode: "disable"
+
+http_server:
+  address: "localhost:8083"
+  timeout: 4s
+  idle_timeout: 60s
